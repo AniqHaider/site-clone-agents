@@ -1,0 +1,13 @@
+{
+  "name": "site-clone-harvest-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic Playwright extraction for the Phase 1 harvest agent.",
+  "scripts": {
+    "harvest": "node harvest-extract.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
